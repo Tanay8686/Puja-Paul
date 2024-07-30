@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.full-body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-track {border-radius: 30px;background-color: #0021525e;}
+::-webkit-scrollbar-thumb {background-color: #002152;border-radius: 30px;width: 10px;}
+::-webkit-scrollbar-thumb:hover {background-color: #001638;}
+
+.navbar {
+    background-color: #002152;
+    overflow: hidden;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.navbar-logo {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 8px;
+    padding-left: 10px;
+    transition: .4s ease;
+    font-family: "Dancing Script";
+    margin-left: 10%;
+}
+
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    display: flex;
+    margin-right: 10%;
+
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 16px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: .4s ease;
+}
+
+.navbar-link:hover {
+    letter-spacing: 1px;
+    color: #bdbdbd;
+}
+
+.short-description-container {
+    display: flex;
+    margin-top: 10px;
+    align-items: flex-start;
+
+}
+
+.mypic {
+    margin: 30px;
+}
+
+.mydesshort {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'cataraman';
+
+}
+
+.des-name {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: garamond;
+    font-weight: bold;
+}
+
+.short-description {
+    display: flex;
+    font-family: 'Catamaran';
+}
+
+.contactlink {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-family: 'Cataraman';
+    font-size: 16px;
+    transition: .4s ease;
+}
+
+.contactlink:hover {
+    color: rgb(52, 0, 0);
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.cv {
+    padding: 10px;
+    margin-top: 16px;
+    background-color: #00215248;
+    color: #000000;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 4px;
+    border-color: #00215248;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .4s ease;
+  }
+
+.cv:hover {
+    background-color: #00337f9b;
+    font-size: 20px;
+  }
+
+
+
+.intro-head {
+    font-family: garamond;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 2px #002152;
+}
+
+.intro-content {
+    font-family: 'cataraman';
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+.buet-section-show {
+    display: flex;
+
+}
+
+.buet-logo {
+    height: auto;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.buet-content-head {
+    font-family: garamond;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 200%;
+}
+
+.buet-content-summery {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'cataraman';
+    letter-spacing: 1px;
+    margin-left: 20px;
+    line-height: 1.5;
+    width: 200%;
+}
+
+.skill {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.skill-pic {
+    height: 30px;
+    width: 30px;
+}
+
+.skill-name {
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'cataraman';
+    font-size: 18px;
+    width: 100%;
+    border-bottom: #002152 1px solid;
+    letter-spacing: 2px;
+    height: 20px;
+}
+
+.skillsubset {
+    margin-top: 16px;
+    width: 50%;
+}
+
+.skillset {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ri-name {
+    background-color: #f3f3f3;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 16%;
+    box-shadow: -10px 10px 15px rgba(161, 161, 161, 0.3); 
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    font-family: 'cataraman';
+    font-size: 18px;
+    border-radius: 20px;
+    transition: .4s ease;
+}
+
+.ri-name:hover {
+    background-color: #e7e7e7;
+    box-shadow: -10px 10px 15px #bbbbbb;
+}
+
+hr{
+    height: 1.5px; border: none; background-color: #002152;
+}
+
+.affi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.buet-table-td {
+    padding: 10px;
+}
+
+.re-head {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: garamond;
+    margin-top: 30px;
+
+}
+
+
+
+.re-keywords {
+    color: #424fff;
+    font-size: 18px;
+    font-family: 'cataraman';
+    text-align: justify;
+}
+
+.doi-link {
+    color: rgb(0, 4, 255);
+    font-family: 'cataraman';
+}
+
+.re-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.re-para {
+    font-size: 18px;
+    font-family: 'cataraman';
+    text-align: justify;
+    width: 80%;
+    line-height: 1.5;
+    margin-left: 120px;
+}
+
+.research-img {
+    width: 120%;
+    height: auto;
+    margin: 30px;
+    margin-right:0px;
+}
+
+.projectsboxset {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.project-box {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .4s ease;
+    
+}
+
+.project-box:hover {
+    box-shadow: 0 60px 100px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.project-pic {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.project-head {
+    font-size: 24px;
+    font-family: garamond;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #002152;
+    color: white;
+    margin-right: 20px;
+}
+
+.award-head {
+    font-family: garamond;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+
+}
+
+.underline {
+    color: transparent;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #002152;
+    text-align: center;
+
+}
+
+.award-box {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.award-pic {
+    width: 30%;
+    transition: .4s ease;
+    height: auto;
+}
+
+.award-pic:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+    background-color: #002152;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Adjust gap as needed */
+  }
+  
+  .social-icons li {
+    display: flex; /* Center icons within list items */
+    align-items: center;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
